@@ -84,6 +84,7 @@ def fetch_articles(term, email, years=5, max_results=100):
 
     # Criando o DataFrame com Polars
     df = pl.DataFrame(all_articles)
+    df.write_csv("articles.csv")
     return df
 
 
