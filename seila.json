@@ -1,0 +1,316 @@
+"2024-09-13 13": "48": 12,
+693 MainThread[
+    "DEBUG"
+]"entrezpy.requester.requester.Requester": {
+    "init": {
+        "wait[s]": 0.3333333333333333,
+        "timeout[s]": 10,
+        "timeoutMax[s]": 60,
+        "timeoutStep[s]": 5,
+        "retries": 9
+    }
+}"2024-09-13 13": "48": 12,
+694 MainThread[
+    "DEBUG"
+]"entrezpy.base.query.EutilsQuery": {
+    "init": {
+        "id": "nGKPHIaBT-eZusIC3uGNCw==",
+        "base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils",
+        "eutil": "esearch.fcgi",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        "req/sec": 3,
+        "tool": "entrezpy",
+        "contact": "youremail@email.com",
+        "apikey": null,
+        "threads": 0
+    }
+}"2024-09-13 13": "48": 12,
+694 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearcher.Esearcher": {
+    "init": {
+        "id": "nGKPHIaBT-eZusIC3uGNCw==",
+        "base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils",
+        "eutil": "esearch.fcgi",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        "req/sec": 3,
+        "tool": "entrezpy",
+        "contact": "youremail@email.com",
+        "apikey": null,
+        "threads": 0
+    }
+}"2024-09-13 13": "48": 12,
+695 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearch_parameter.EsearchParameter": {
+    "init": {
+        "db": "pubmed",
+        "webenv": null,
+        "querykey": 0,
+        "usehistory": true,
+        "term": "viruses[orgn]",
+        "sort": null,
+        "retmode": "json",
+        "max_request_size": 100000,
+        "retmax": 20,
+        "field": null,
+        "uilist": true,
+        "retstart": 0,
+        "datetype": null,
+        "reldate": null,
+        "mindate": null,
+        "maxdate": null,
+        "expected_requsts": 1,
+        "request_size": 20
+    }
+}"2024-09-13 13": "48": 12,
+695 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearcher.Esearcher": {
+    "parameter": {
+        "db": "pubmed",
+        "webenv": null,
+        "querykey": 0,
+        "usehistory": true,
+        "term": "viruses[orgn]",
+        "sort": null,
+        "retmode": "json",
+        "max_request_size": 100000,
+        "retmax": 20,
+        "field": null,
+        "uilist": true,
+        "retstart": 0,
+        "datetype": null,
+        "reldate": null,
+        "mindate": null,
+        "maxdate": null,
+        "expected_requsts": 1,
+        "request_size": 20
+    }
+}"2024-09-13 13": "48": 12,
+695 MainThread[
+    "DEBUG"
+]"entrezpy.requester.monitor.QueryMonitor": {
+    "dispatching observer for": "nGKPHIaBT-eZusIC3uGNCw==",
+    "parameter": {
+        "db": "pubmed",
+        "webenv": null,
+        "querykey": 0,
+        "usehistory": true,
+        "term": "viruses[orgn]",
+        "sort": null,
+        "retmode": "json",
+        "max_request_size": 100000,
+        "retmax": 20,
+        "field": null,
+        "uilist": true,
+        "retstart": 0,
+        "datetype": null,
+        "reldate": null,
+        "mindate": null,
+        "maxdate": null,
+        "expected_requsts": 1,
+        "request_size": 20
+    }
+}"2024-09-13 13": "48": 12,
+696 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearch_request.EsearchRequest": {
+    "init": {
+        "retmax": 20,
+        "WebEnv": null,
+        "retmode": "json",
+        "usehistory": true,
+        "sort": null,
+        "retstart": 0,
+        "query_key": 0,
+        "field": null,
+        "datetype": null,
+        "reldate": null,
+        "mindate": null,
+        "maxdate": null,
+        "id": null,
+        "query-id": null,
+        "eutil": "esearch.fcgi",
+        "db": "pubmed",
+        "query_id": null,
+        "tool": null,
+        "url": null,
+        "email": null,
+        "size": 1,
+        "request_error": null,
+        "apikey": "no"
+    }
+}"2024-09-13 13": "48": 12,
+697 MainThread[
+    "DEBUG"
+]"entrezpy.requester.requestpool.RequestPool": {
+    "threads": "none"
+}"2024-09-13 13": "48": 12,
+697 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearch_request.EsearchRequest": {
+    "POST": {
+        "retmax": 20,
+        "WebEnv": null,
+        "retmode": "json",
+        "usehistory": true,
+        "sort": null,
+        "retstart": 0,
+        "query_key": 0,
+        "field": null,
+        "datetype": null,
+        "reldate": null,
+        "mindate": null,
+        "maxdate": null,
+        "id": 0,
+        "query-id": "nGKPHIaBT-eZusIC3uGNCw==",
+        "eutil": "esearch.fcgi",
+        "db": "pubmed",
+        "query_id": "nGKPHIaBT-eZusIC3uGNCw==",
+        "tool": "entrezpy",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        "email": "youremail@email.com",
+        "size": 1,
+        "request_error": null,
+        "apikey": "no"
+    }
+}"2024-09-13 13": "48": 12,
+697 MainThread[
+    "DEBUG"
+]"entrezpy.requester.requester.Requester": {
+    "try": 0
+}"2024-09-13 13": "48": 12,
+697 MainThread[
+    "DEBUG"
+]"entrezpy.requester.requester.Requester": {
+    "request": {
+        "qry-url": "email=youremail%40email.com&tool=entrezpy&db=pubmed&term=viruses%5Borgn%5D&retmax=20&retmode=json&usehistory=y",
+        "req-id": 0,
+        "req-query": "nGKPHIaBT-eZusIC3uGNCw==",
+        "req-url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        "try": 0
+    }
+}"2024-09-13 13": "48": 13,
+696 Thread-1[
+    "INFO"
+]"entrezpy.esearch.esearch_request.EsearchRequest": {
+    "query": "nGKPHIaBT-eZusIC3uGNCw==",
+    "request": 0,
+    "status": 0
+}"2024-09-13 13": "48": 13,
+696 Thread-1[
+    "DEBUG"
+]"entrezpy.esearch.esearch_request.EsearchRequest": {
+    "status": {
+        "eutil": "esearch.fcgi",
+        "db": "pubmed",
+        "id": 0,
+        "query_id": "nGKPHIaBT-eZusIC3uGNCw==",
+        "tool": "entrezpy",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        "email": "youremail@email.com",
+        "size": 1,
+        "request_error": null,
+        "apikey": "no"
+    }
+}"2024-09-13 13": "48": 13,
+773 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearch_result.EsearchResult": {
+    "init": {
+        "db": "pubmed",
+        "count": 1498743,
+        "len_uids": 20,
+        "uid": [
+            "30000747",
+            "30000051",
+            "39267201",
+            "39267200",
+            "39267189",
+            "39267167",
+            "39267145",
+            "39267099",
+            "39267031",
+            "39266958",
+            "39266903",
+            "39266884",
+            "39266851",
+            "39266831",
+            "39266766",
+            "39266747",
+            "39266719",
+            "39266698",
+            "39266691",
+            "39266688"
+        ],
+        "retmax": 20,
+        "function": "esearch.fcgi",
+        "retstart": 0,
+        "references": {
+            "MCID_66e46ccd615fe26b940dea52": [
+                1
+            ]
+        }
+    }
+}"2024-09-13 13": "48": 13,
+774 MainThread[
+    "INFO"
+]"entrezpy.esearch.esearcher.Esearcher": {
+    "query": "nGKPHIaBT-eZusIC3uGNCw==",
+    "status": "OK"
+}"2024-09-13 13": "48": 13,
+774 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearcher.Esearcher": {
+    "initial response": "fetched whole query"
+}"2024-09-13 13": "48": 13,
+775 MainThread[
+    "DEBUG"
+]"entrezpy.requester.monitor.QueryMonitor": {
+    "recalling observer for": "nGKPHIaBT-eZusIC3uGNCw=="
+}"2024-09-13 13": "48": 13,
+775 MainThread[
+    "INFO"
+]"entrezpy.esearch.esearch_request.EsearchRequest": {
+    "query": "nGKPHIaBT-eZusIC3uGNCw==",
+    "request": 0,
+    "status": 0
+}"2024-09-13 13": "48": 13,
+775 MainThread[
+    "DEBUG"
+]"entrezpy.esearch.esearch_request.EsearchRequest": {
+    "status": {
+        "eutil": "esearch.fcgi",
+        "db": "pubmed",
+        "id": 0,
+        "query_id": "nGKPHIaBT-eZusIC3uGNCw==",
+        "tool": "entrezpy",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+        "email": "youremail@email.com",
+        "size": 1,
+        "request_error": null,
+        "apikey": "no"
+    }
+}1498743[
+    "30000747",
+    "30000051",
+    "39267201",
+    "39267200",
+    "39267189",
+    "39267167",
+    "39267145",
+    "39267099",
+    "39267031",
+    "39266958",
+    "39266903",
+    "39266884",
+    "39266851",
+    "39266831",
+    "39266766",
+    "39266747",
+    "39266719",
+    "39266698",
+    "39266691",
+    "39266688"
+]
